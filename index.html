@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>upsleek — Productos esenciales, diseño simple</title>
+  <meta name="description" content="upsleek: productos seleccionados con diseño minimalista y envío a todo el país.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">upsleek</a>
+      <nav class="nav__links">
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#productos" class="btn btn--small">Comprar</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="eyebrow">Nueva colección</p>
+        <h1>Lo esencial,<br>sin complicaciones.</h1>
+        <p class="hero__text">
+          Productos seleccionados por su diseño y calidad. Envío directo a tu puerta.
+        </p>
+        <div class="hero__actions">
+          <a href="#productos" class="btn">Ver productos</a>
+          <a href="#nosotros" class="btn btn--ghost">Conocer más</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="features" id="nosotros">
+      <div class="container features__grid">
+        <div class="feature">
+          <span class="feature__num">01</span>
+          <h3>Envío gratis</h3>
+          <p>En todos los pedidos, sin monto mínimo.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__num">02</span>
+          <h3>Pago seguro</h3>
+          <p>Tus datos protegidos en cada compra.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__num">03</span>
+          <h3>Devoluciones fáciles</h3>
+          <p>30 días para cambiar de opinión.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="products" id="productos">
+      <div class="container">
+        <div class="section-head">
+          <h2>Más vendidos</h2>
+          <a href="#" class="link">Ver todo →</a>
+        </div>
+        <div class="products__grid">
+          <article class="product">
+            <div class="product__img product__img--1"></div>
+            <h3>Producto uno</h3>
+            <p class="product__price">$29.00</p>
+          </article>
+          <article class="product">
+            <div class="product__img product__img--2"></div>
+            <h3>Producto dos</h3>
+            <p class="product__price">$39.00</p>
+          </article>
+          <article class="product">
+            <div class="product__img product__img--3"></div>
+            <h3>Producto tres</h3>
+            <p class="product__price">$24.00</p>
+          </article>
+          <article class="product">
+            <div class="product__img product__img--4"></div>
+            <h3>Producto cuatro</h3>
+            <p class="product__price">$49.00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="cta" id="contacto">
+      <div class="container cta__inner">
+        <h2>Recibe 10% en tu primera compra</h2>
+        <p>Suscríbete y entérate primero de nuevos productos.</p>
+        <form class="cta__form" onsubmit="event.preventDefault(); this.innerHTML = '<p class=&quot;cta__thanks&quot;>¡Gracias por suscribirte!</p>';">
+          <input type="email" placeholder="Tu correo electrónico" required aria-label="Correo electrónico">
+          <button type="submit" class="btn">Suscribirme</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo">upsleek</span>
+      <p>© 2026 upsleek. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
