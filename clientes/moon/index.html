@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moon — Peluquería para perros pequeños</title>
+  <meta name="description" content="moon es la peluquería especializada en perros pequeños y miniatura: baño, corte y cuidados suaves, a su tamaño y sin prisas. Reserva tu cita.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- EJEMPLO: ajustar días y horarios reales -->
+  <div class="announcement">Solo perritos pequeños ✦ Reserva tu cita por WhatsApp de lunes a sábado</div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo" aria-label="moon, inicio">
+        <span class="logo__moon" aria-hidden="true"></span>moon
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#por-que">Por qué moon</a>
+        <a href="#opiniones">Opiniones</a>
+      </nav>
+      <a href="#reservar" class="btn btn--small">Reservar cita</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Peluquería para perros pequeños</p>
+          <h1>Pequeñitos por fuera,<br><em>consentidos por dentro.</em></h1>
+          <p class="hero__text">
+            En moon cuidamos a tu perrito como tú lo harías: con calma, con cariño
+            y con todo a su medida. Sale limpio, guapo y feliz.
+          </p>
+          <div class="hero__actions">
+            <a href="#reservar" class="btn">Quiero reservar</a>
+            <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+          </div>
+        </div>
+        <!-- Reemplazar por foto: background: url('img/hero.jpg') center/cover; -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__moon"></div>
+          <span class="hero__paw hero__paw--1"><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="6" cy="9" rx="2.2" ry="2.8"/><ellipse cx="10.2" cy="5.5" rx="2.2" ry="2.9"/><ellipse cx="14.8" cy="5.5" rx="2.2" ry="2.9"/><ellipse cx="19" cy="9" rx="2.2" ry="2.8"/><path d="M12.5 11c-3.2 0-6 3.4-6 6.2 0 2.1 1.7 2.8 3.2 2.8 1.2 0 1.8-.6 2.8-.6s1.6.6 2.8.6c1.5 0 3.2-.7 3.2-2.8 0-2.8-2.8-6.2-6-6.2z"/></svg></span>
+          <span class="hero__paw hero__paw--2"><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="6" cy="9" rx="2.2" ry="2.8"/><ellipse cx="10.2" cy="5.5" rx="2.2" ry="2.9"/><ellipse cx="14.8" cy="5.5" rx="2.2" ry="2.9"/><ellipse cx="19" cy="9" rx="2.2" ry="2.8"/><path d="M12.5 11c-3.2 0-6 3.4-6 6.2 0 2.1 1.7 2.8 3.2 2.8 1.2 0 1.8-.6 2.8-.6s1.6.6 2.8.6c1.5 0 3.2-.7 3.2-2.8 0-2.8-2.8-6.2-6-6.2z"/></svg></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Servicios</p>
+          <h2>Todo lo que tu peque necesita</h2>
+          <p class="section-head__text">Pensado para chihuahuas, yorkies, malteses, pomerania, caniches toy y todos los que caben en tus brazos.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service">
+            <div class="service__img service__img--1"></div>
+            <h3>Baño y secado suave</h3>
+            <p>Champú delicado, agua tibia y secado a baja temperatura para que no pase frío ni sustos.</p>
+          </article>
+          <article class="service">
+            <div class="service__img service__img--2"></div>
+            <h3>Corte a tijera</h3>
+            <p>El corte de su raza o el que tú quieras, con tijera y paciencia, pelito a pelito.</p>
+          </article>
+          <article class="service">
+            <div class="service__img service__img--3"></div>
+            <h3>Spa de patitas</h3>
+            <p>Corte de uñas, limpieza de almohadillas y un poco de crema para que camine cómodo.</p>
+          </article>
+          <article class="service">
+            <div class="service__img service__img--4"></div>
+            <h3>Primera visita de cachorro</h3>
+            <p>Una cita cortita para que conozca el lugar, los sonidos y a nosotros, sin presiones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="features" id="por-que">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Por qué moon</p>
+          <h2>Hecho a su tamaño</h2>
+        </div>
+        <div class="features__grid">
+          <div class="feature">
+            <span class="feature__icon" aria-hidden="true">☾</span>
+            <h3>Solo perros pequeños</h3>
+            <p>Nada de ladridos gigantes alrededor. Tu perrito está tranquilo entre amigos de su tamaño.</p>
+          </div>
+          <div class="feature">
+            <span class="feature__icon" aria-hidden="true">♡</span>
+            <h3>Uno a la vez</h3>
+            <p>Le dedicamos toda la atención mientras está con nosotros. Sin jaulas y sin esperas largas.</p>
+          </div>
+          <div class="feature">
+            <span class="feature__icon" aria-hidden="true">✦</span>
+            <h3>Productos suaves</h3>
+            <p>Champús y cremas para pieles delicadas, porque los peques también son más sensibles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opiniones -->
+    <section class="testimonials" id="opiniones">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Opiniones</p>
+          <h2>Colitas felices</h2>
+        </div>
+        <!-- EJEMPLO: reemplazar por testimonios reales -->
+        <div class="testimonials__grid">
+          <figure class="testimonial">
+            <blockquote>“Lola le tenía miedo al secador y en moon salió tranquilísima. Ya no quiero llevarla a otro lado.”</blockquote>
+            <figcaption><strong>Mariana</strong> · mamá de Lola, chihuahua</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>“Le hicieron el corte exacto que le pedí. Se nota que conocen a los perritos pequeños.”</blockquote>
+            <figcaption><strong>Diego</strong> · papá de Toby, yorkshire</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>“La visita de cachorro fue lo mejor. Ahora Nube entra moviendo la cola.”</blockquote>
+            <figcaption><strong>Sofía</strong> · mamá de Nube, maltés</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta" id="reservar">
+      <div class="container">
+        <div class="cta__inner">
+          <h2>¿Le damos un día de mimos?</h2>
+          <p class="cta__text">Déjanos tus datos y te escribimos para elegir el día y la hora que mejor les quede.</p>
+          <form class="cta__form" id="reserva-form">
+            <label class="sr-only" for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <label class="sr-only" for="telefono">Tu WhatsApp</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Tu WhatsApp" required>
+            <label class="sr-only" for="perro">Nombre y raza de tu perrito</label>
+            <input type="text" id="perro" name="perro" placeholder="Nombre y raza de tu perrito">
+            <button type="submit" class="btn btn--light">Pedir mi cita</button>
+          </form>
+          <p class="cta__thanks" id="reserva-gracias" hidden role="status">¡Listo! Te escribimos muy pronto ♡</p>
+          <!-- EJEMPLO: reemplazar por el número real de WhatsApp -->
+          <p class="cta__alt">¿Prefieres escribirnos ya? <a href="https://wa.me/">Abrir WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="logo"><span class="logo__moon" aria-hidden="true"></span>moon</a>
+      <nav class="footer__links" aria-label="Pie de página">
+        <a href="#servicios">Servicios</a>
+        <a href="#opiniones">Opiniones</a>
+        <!-- EJEMPLO: reemplazar por los enlaces reales de redes -->
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </nav>
+      <p>© 2026 moon · Peluquería para perros pequeños</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('reserva-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      this.hidden = true;
+      document.getElementById('reserva-gracias').hidden = false;
+    });
+  </script>
+</body>
+</html>
